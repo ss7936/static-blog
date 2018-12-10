@@ -1,5 +1,8 @@
 import React from 'react';
+import '../css/header.css'
 
 export default () => (
-    <h1>SSD DevLog</h1>
+    <div id="header-wrapper">
+        <a id="header-home-link" href="/">SSD DevLog</a>
+    </div>
 )

@@ -1,0 +1,15 @@
+#footer-wrapper{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #f1f3f5;
+    text-align: center;
+}
+
+#footer-section{
+    font-size: 13px;
+    color: #777777;
+    display: inline;
+}
