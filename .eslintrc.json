@@ -29,6 +29,10 @@
         ],
         "no-unused-vars": [
             "warn"
+        ],
+        "space-before-blocks": [
+            "error",
+            "always"
         ]
     }
 }
