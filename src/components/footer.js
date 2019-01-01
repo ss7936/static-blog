@@ -1,13 +1,12 @@
-import React from 'react';
 import '../css/footer.css';
 
 export default () => (
-	<div id="footer-wrapper">
-		<section id="footer-section">
+	<footer className='footer-wrapper'>
+		<section className='footer-section'>
 			<b>footer1</b>
 		</section>
-		<section id="footer-section">
+		<section className='footer-section'>
 			<b>footer2</b>
 		</section>
-	</div>
+	</footer>
 );

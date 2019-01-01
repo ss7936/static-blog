@@ -1,5 +1,5 @@
-#header-wrapper{
-    position: absolute;
+.header-wrapper{
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -7,7 +7,7 @@
     background-color: #f1f3f5;
 }
 
-#header-home-link{
+.header-home-link{
     position: relative;
     left: 20px;
 }
