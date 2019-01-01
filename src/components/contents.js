@@ -1,8 +1,8 @@
 import React from 'react';
-import '../css/layout.css';
+import '../css/contents.css';
 
 export default ({ children }) => (
-	<div>
+	<div className="contents">
 		{children}
 	</div>
 );
