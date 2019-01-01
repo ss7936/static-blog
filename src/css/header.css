@@ -1,4 +1,4 @@
-.header-wrapper{
+.header-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,7 +7,7 @@
     background-color: #f1f3f5;
 }
 
-.header-home-link{
+.header-home-link {
     position: relative;
     left: 20px;
 }
