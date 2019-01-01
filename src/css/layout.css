@@ -11,4 +11,10 @@
 
 body {
     font-family: NanumGothic;
+    color: #212529;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
 }
