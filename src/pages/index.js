@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Header from '../components/header';
-import Layout from '../components/layout';
+import Layout from '../components/index-layout';
 import Contents from '../components/contents';
 import '../css/home-main.css';
 
@@ -10,7 +10,7 @@ export default () => (
 		<Layout>
 			<Header title="SSD Tech Blog" />
 			<Contents>
-				<p>Welcome</p>
+				<h1>Welcome</h1>
 				<div>
 					<img src="https://source.unsplash.com/random/400x200" alt="" />
 				</div>

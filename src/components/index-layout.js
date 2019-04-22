@@ -1,8 +1,8 @@
 import React from 'react';
-import '../css/layout.css';
+import '../css/index-layout.css';
 
 export default ({ children }) => (
-	<div>
+	<div className="root">
 		{children}
 	</div>
 );

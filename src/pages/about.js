@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Header from '../components/header';
 import Contents from '../components/contents';
-import Layout from '../components/layout';
+import Layout from '../components/index-layout';
 
 export default () => (
 	<Layout>
