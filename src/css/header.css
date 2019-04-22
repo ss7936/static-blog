@@ -1,4 +1,4 @@
-.header-wrapper {
+.root-header {
 	position: fixed;
     display: flex;
 	top: 0;
@@ -9,7 +9,7 @@
     background-color: #f1f3f5;
 }
 
-.header-home-link {
+.link-home {
     position: relative;
     left: 20px;
     font-weight: bold;

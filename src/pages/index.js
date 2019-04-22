@@ -6,7 +6,7 @@ import Contents from '../components/contents';
 import '../css/home-main.css';
 
 export default () => (
-	<div className="wrapper">
+	<div className="root">
 		<Layout>
 			<Header title="SSD Tech Blog" />
 			<Contents>
