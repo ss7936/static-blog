@@ -1,0 +1,14 @@
+.root-article  {
+    margin: 30px auto;
+    width: 700px;
+}
+
+.wrapper-title {
+    display: block;
+    height: 100px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}

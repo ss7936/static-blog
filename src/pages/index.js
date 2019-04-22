@@ -1,21 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Header from '../components/header';
-import Layout from '../components/index-layout';
-import Contents from '../components/contents';
-import '../css/home-main.css';
+import Layout from '../components/layout';
+import Contents from '../components/article';
+import '../css/index.css';
 
 export default () => (
 	<div className="root">
 		<Layout>
-			<Header title="SSD Tech Blog" />
-			<Contents>
-				<h1>Welcome</h1>
-				<div>
-					<img src="https://source.unsplash.com/random/400x200" alt="" />
-				</div>
-				<Link to="/about/">About</Link>
-			</Contents>
+			<Header />
+			{/* TODO : Load article by .md and it as a parameter */}
+			<Contents title="This is Title area" contents="This is Contents area" />
+
+			{/* TODO : Need to add Footer later */}
 		</Layout>
 	</div>
 );
